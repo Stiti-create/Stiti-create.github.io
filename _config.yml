@@ -1,3 +1,13 @@
+defaults:
+ -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+      author: "Stiti"
+
+
 remote_theme: pages-themes/midnight@v0.2.0
 title: Stitiprajna Sahoo
 description: Welcome to my homepage! I am a passionate 4th-year Computer Science and Engineering (CSE) student currently pursuing my B.Tech degree from IIT Delhi. This page is a reflection of my journey, showcasing my love for technology, programming, and the endless possibilities that the world of computer science has to offer.
